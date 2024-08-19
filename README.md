@@ -1,1 +1,1 @@
-Exercico prático para fixar conceitos importantes sobre herança e polimorfismo.
+Exercício prático para fixar conceitos importantes sobre herança e polimorfismo.
