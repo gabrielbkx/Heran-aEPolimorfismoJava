@@ -16,8 +16,4 @@ public class OutsourcedEmployee extends Employee {
     public double payment(){
         return super.payment() + (additionalCharge * 1.10);
     }
-
-    @Override
-    public String toString() {
-        return name + " " + "-" + " $" + " " + String.format("%.2f",payment());    }
 }
