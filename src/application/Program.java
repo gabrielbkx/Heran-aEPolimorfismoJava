@@ -32,6 +32,7 @@ public class Program {
             if (s.equalsIgnoreCase("y")) {
                 System.out.print("Additional charge: ");
                 double additionalCharge = sc.nextDouble();
+                //Upcasting, sem ele nós não podemos adicionar o empregado na lista do tipo Employee
                 Employee employee = new OutsourcedEmployee(name,hours,valuePerHour,additionalCharge);
                 employees.add(employee);
             }else {
